@@ -267,6 +267,19 @@ html {
   transform: scale(1.1);
 }
 
+.button-github button {
+  padding: 20px 25px;
+  background-color: #33415a;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.button-github button:hover {
+  transform: scale(1.05);
+}
+
 /* Footer */
 .footer {
   width: 100%;
