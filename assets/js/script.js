@@ -1,3 +1,11 @@
+const hamburguer = document.querySelector(".hamburguer");
+const navMenu = document.querySelector(".navigation-list");
+
+hamburguer.addEventListener("click", () => {
+    hamburguer.classList.toggle('active');
+    navMenu.classList.toggle('active');
+});
+
 window.ityped.init(document.querySelector(".ityped"), {
     strings: ['Desenvolvedor Web,', 'Técnico em Informática,', 'e Designer Gráfico.'],
     loop: true,
