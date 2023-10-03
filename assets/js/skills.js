@@ -44,32 +44,20 @@ const skills = [
 const projects = [
     {
         id: 1,
-        project: "Projeto!",
-        img: "./assets/img/projects/"
+        project: "Trabalho de Sociologia",
+        img: "./assets/img/projects/trabalho-sociologia.png",
+        link: "https://saveplant.netlify.app/"
     },
     {
         id: 2,
-        project: "Projeto!",
-        img: "./assets/img/projects/"
+        project: "Primeiro Site Oficial",
+        img: "./assets/img/projects/ferreiras-web.png",
+        link: "https://htechinfo.netlify.app/"
     },
     {
         id: 3,
-        project: "Projeto!",
-        img: "./assets/img/projects/"
-    },
-    {
-        id: 4,
-        project: "Projeto!",
-        img: "./assets/img/projects/"
-    },
-    {
-        id: 5,
-        project: "Projeto!",
-        img: "./assets/img/projects/"
-    },
-    {
-        id: 6,
-        project: "Projeto!",
-        img: "./assets/img/projects/"
+        project: "Catalogo de Filmes",
+        img: "./assets/img/projects/movie-universe.png",
+        link: "https://movieuniverse2023.netlify.app/"
     },
 ]

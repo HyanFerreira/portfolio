@@ -287,6 +287,10 @@ html {
   justify-content: center;
 }
 
+.card-project img {
+  border-radius: 20px;
+}
+
 .card-project:hover {
   transform: scale(1.1);
 }
@@ -399,6 +403,10 @@ html {
     width: 250px;
     height: 148px;
   }
+  .card-project img {
+    width: 250px;
+    height: 148px;
+  }
 }
 
 @media (max-width: 600px) {
@@ -410,6 +418,10 @@ html {
     font-size: 1rem;
   }
   .card-project {
+    width: 200px;
+    height: 118px;
+  }
+  .card-project img {
     width: 200px;
     height: 118px;
   }
@@ -457,10 +469,16 @@ html {
   .box-shadow {
     width: 300px;
   }
-  .projects, .skills {
+  .projects,
+  .skills {
     gap: 20px;
   }
-  .card-skill, .card-project {
+  .card-skill,
+  .card-project {
+    width: 150px;
+    height: 88px;
+  }
+  .card-project img {
     width: 150px;
     height: 88px;
   }

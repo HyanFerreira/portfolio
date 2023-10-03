@@ -26,8 +26,9 @@ skills.map((item, index) => {
 projects.map((item, index) => {
     let skill = c(".card-project").cloneNode(true);
 
-    skill.querySelector(".card-project span").innerHTML = item.project;
+    // skill.querySelector(".card-project span").innerHTML = item.project;
     skill.querySelector(".card-project img").src = item.img;
+    skill.querySelector(".card-project a").href = item.link;
 
     c(".content-projects .projects").append(skill);
 });
