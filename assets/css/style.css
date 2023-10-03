@@ -369,6 +369,7 @@ html {
     flex-direction: column;
   }
   .area-welcome {
+    width: 100%;
     height: 250px;
     align-items: center;
   }
