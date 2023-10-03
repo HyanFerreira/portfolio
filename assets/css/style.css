@@ -115,7 +115,7 @@ html {
 .area-welcome {
   display: flex;
   align-items: flex-start;
-  padding: 15px 30px;
+  padding: 15px 10px;
 }
 
 .area-welcome h1 {
@@ -188,7 +188,7 @@ html {
   justify-content: center;
   gap: 50px;
   background-color: #222a40;
-  padding: 50px;
+  padding: 50px 10px;
 }
 
 .content-aboutme h1 {
@@ -218,7 +218,7 @@ html {
   justify-content: center;
   gap: 30px;
   background-color: #33415a;
-  padding: 50px 20px;
+  padding: 50px 10px;
 }
 
 .skill-hidden {
@@ -376,7 +376,7 @@ html {
     height: 300px;
   }
   .content-aboutme {
-    padding: 50px 30px;
+    padding: 50px 20px;
     gap: 30px;
   }
 }
@@ -463,5 +463,8 @@ html {
   .card-skill img {
     width: 64px;
     height: auto;
+  }
+  .content-aboutme img {
+    width: 300px;
   }
 }
