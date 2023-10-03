@@ -457,6 +457,9 @@ html {
   .box-shadow {
     width: 300px;
   }
+  .projects, .skills {
+    gap: 20px;
+  }
   .card-skill, .card-project {
     width: 150px;
     height: 88px;
