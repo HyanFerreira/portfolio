@@ -195,6 +195,11 @@ html {
   display: none;
 }
 
+.img-aboutme img {
+  border: 3px solid #1b2133;
+  border-radius: 50%;
+}
+
 .bio-aboutme {
   max-width: 600px;
   text-align: justify;
